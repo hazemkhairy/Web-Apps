@@ -8,8 +8,8 @@ body{
 }
 
 .container{
-    width: 550px;
-    height: 300px;
+    width: 45%;
+    height: 40%;
     background-color: #DDD;
     border: 7px dashed black;
     border-radius: 2%;
@@ -19,17 +19,18 @@ body{
     left: 30%;
 }
 
-.innerContainer{
-    position: absolute;
-    top: 45%;
-    left: 20%;
-}
 .container:hover{
     background-color: #dfb2b2;
     
 }
+.innerContainer{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
 #inputTextBox{
-    width: 300px;
+    width: 50%;
     border-radius: 4px;
     border: 0px ;
     border-bottom: 3px solid blue;
@@ -42,10 +43,12 @@ body{
     background-color:lightcyan;
     border: 1px solid blue; 
     cursor: pointer;
+    
 }
 
 #resultDisplay{
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     font-weight: 900;
+    color: brown;
 }
