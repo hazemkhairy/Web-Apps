@@ -2,15 +2,7 @@
 let button = document.getElementById("submitButton");
 let textBox = document.getElementById("inputTextBox");
 let resultDisplay = document.getElementById("resultDisplay");
-/*
-console.log(textBox);
-const onInputChange =()=>{
-    console.log("in");
-    
-    console.log(value);
-}
 
-*/
 
 const checkIfValid=(input)=>{
     console.log(`now we check ${input}`);
@@ -27,13 +19,12 @@ const transferNewInput=()=>{
     let textBoxValue=textBox.value;
     let toBeDisplayed="";
     textBoxValue.trim();
-
+    
     if(!checkIfValid(textBoxValue))
         toBeDisplayed="Please Enter Valid combination of 0's and 1's";
     else
     {
         toBeDisplayed="Decimal = " + convertBinaryToDecimal(textBoxValue);
-        //toBeDisplayed=textBoxValue;
     }
     
     resultDisplay.innerHTML=toBeDisplayed;
