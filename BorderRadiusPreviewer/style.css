@@ -1,0 +1,70 @@
+
+body{
+    background-color: #ea4860;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cssCode{
+    margin: 1%;
+    padding: 2%;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 10px 10px 5px 3px darkblue;
+    background-color: black;
+    color: #ea4860;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40px;
+    letter-spacing: 3px;
+    
+}
+#cssCode:hover{
+    text-decoration-line: underline;
+}
+.Container{
+    background-color:	#ff8da4;
+    margin: 1%;
+    border: 2px solid black;
+    padding: 1%;
+    height: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+#leftOfPolygon , #PolygonDiv , #rightOfPolygon
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    box-sizing: border-box;
+}
+#PolygonDiv{
+    height: 85%;
+    align-self: center;
+    justify-content: center;
+    background-color: #53ec4d;
+    border: 3px dashed #131313;
+    width: 70%;
+}
+
+input[type="number"]{
+    width: 90%;
+    border-radius: 4px;
+    border: 0px ;
+    border-bottom: 3px solid darkblue;
+    text-align: center;
+    padding: 3px;
+    background-color: transparent;
+}
+
+input[type="number"]:hover{
+    background-color:lightcyan;
+    border: 1px solid darkblue; 
+    cursor: pointer;
+    
+}
